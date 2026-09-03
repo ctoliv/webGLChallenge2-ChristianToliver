@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Transformation Challenge - Robot</title>
+    <style>
+        body {
+            margin: 0;
+            background: #e5e4e4;
+        }
+
+        canvas {
+            display: block;
+            margin: auto;
+            background: rgb(247, 246, 250);
+        }
+
+        .scene {
+            position: relative;
+            width: 800px;
+            height: 600px;
+            margin: auto;
+        }
+
+        #speechText {
+            position: absolute;
+            top: 112px;
+            left: 604px;
+            width: 112px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #222;
+            font: 20px sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+<div class="scene">
+    <canvas id="glCanvas" width="800" height="600"></canvas>
+    <div id="speechText">hello</div>
+</div>
+
+<script src="challenge2.js"></script>
+
+</body>
+</html>
